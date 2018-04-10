@@ -1,0 +1,142 @@
+body {
+  background-color: #CFB095; }
+
+nav {
+  border-bottom: 4px double white;
+  padding-bottom: .5rem; }
+
+.nav-item:hover {
+  transform: scale(1.3); }
+
+#resume {
+  background-color: transparent;
+  color: #90755D;
+  border: 1px solid #90755D; }
+
+#resume:hover {
+  background-color: #90755D;
+  color: white; }
+
+.jumbotron {
+  background: #90755D;
+  opacity: .6;
+  color: white;
+  height: 100vh;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  text-align: center;
+  position: relative; }
+
+.designImage {
+  margin-top: 10%;
+  max-width: 70%;
+  max-height: 70%;
+  animation: rotate 8s linear infinite;
+  -webkit-animation: rotate 8s linear infinite;
+  -moz-animation: rotate 8s linear infinite;
+  -o-animation: rotate 8s linear infinite; }
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+button {
+  background-color: transparent;
+  border: none;
+  margin-top: 5%; }
+
+#about {
+  height: 100vh;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 1.5rem;
+  position: static; }
+
+#photo {
+  width: 100%;
+  height: auto;
+  margin-left: 0px; }
+
+#outsideLinks {
+  justify-content: center; }
+
+#about h3 {
+  padding-top: 4%;
+  padding-bottom: 4%;
+  text-align: center; }
+
+p:nth-last-child(2) {
+  padding-bottom: 4%; }
+
+#otherLinks {
+  border-top: 4px double white;
+  padding-top: 2rem; }
+
+#portfolio {
+  height: 100vh;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  position: static; }
+
+.imageOverlay {
+  position: relative;
+  width: 100%; }
+
+.overlayImg {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #90755D;
+  overflow: hidden;
+  opacity: .7;
+  width: 100%;
+  height: 0;
+  transition: .5s ease; }
+
+.imageOverlay:hover .overlay {
+  height: 100%; }
+
+.imageText {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center; }
+
+#contact form {
+  border: 4px double white;
+  border-radius: 4px;
+  padding: 1rem;
+  background-color: #90755D; }
+
+#contact h3 {
+  text-align: center;
+  font-family: 'Ubuntu Condensed', sans-serif; }
+
+#sendButton {
+  border: 1px solid; }
+
+#sendButton:hover {
+  transform: scale(1.2);
+  background: #90755D;
+  color: white;
+  border: 1px solid white; }
+
+#contact {
+  position: static;
+  display: block; }
+
+footer {
+  bottom: 0px;
+  background-color: #90755D;
+  width: 100%;
+  margin-top: 3%;
+  border-top: 4px double white; }

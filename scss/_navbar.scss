@@ -1,0 +1,19 @@
+nav{
+    border-bottom: 4px double white;
+    padding-bottom: .5rem;
+
+}
+.nav-item:hover{
+    transform: scale(1.3);
+
+}
+
+#resume{
+    background-color: transparent;
+    color: #90755D;
+    border: 1px solid #90755D;
+}
+#resume:hover{
+    background-color:#90755D;
+    color: white;
+}

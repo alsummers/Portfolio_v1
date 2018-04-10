@@ -1,0 +1,44 @@
+#portfolio{
+  height: 100vh;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  position: static;
+}
+
+.imageOverlay {
+    position: relative;
+    width: 100%;
+  }
+  
+  .overlayImg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #90755D;
+    overflow: hidden;
+    opacity: .7;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .imageOverlay:hover .overlay {
+    height: 100%;
+  }
+  
+  .imageText {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }

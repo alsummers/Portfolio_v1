@@ -1,0 +1,23 @@
+#contact form{
+    border: 4px double white;
+    border-radius: 4px;
+    padding: 1rem;
+    background-color:#90755D;
+}
+#contact h3{
+    text-align: center;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+#sendButton{
+    border: 1px solid
+}
+#sendButton:hover{
+    transform: scale(1.2);
+    background: #90755D;
+    color: white;
+    border: 1px solid white;
+}
+#contact {
+    position: static;
+    display: block;
+}

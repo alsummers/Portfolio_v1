@@ -1,0 +1,28 @@
+#about{
+    height: 100vh;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 1.5rem;
+    position: static;
+}
+
+#photo{
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+}
+#outsideLinks{
+    justify-content: center;
+}
+#about h3{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    text-align: center;
+}
+p:nth-last-child(2){
+    padding-bottom: 4%;
+}
+
+#otherLinks{
+    border-top: 4px double white;
+    padding-top: 2rem;
+}
