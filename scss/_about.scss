@@ -1,7 +1,7 @@
 #about{
     height: 100vh;
     font-family: 'Ubuntu Condensed', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     position: static;
 }
 
@@ -12,6 +12,7 @@
 }
 #outsideLinks{
     justify-content: center;
+    position: relative;
 }
 #about h3{
     padding-top: 4%;
@@ -24,5 +25,6 @@ p:nth-last-child(2){
 
 #otherLinks{
     border-top: 4px double white;
-    padding-top: 2rem;
+    padding-top: .5rem;
+    position: relative;
 }
